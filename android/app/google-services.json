@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445437568272",
+    "project_id": "ola-programador",
+    "storage_bucket": "ola-programador.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445437568272:android:1844e03b4be42554cff195",
+        "android_client_info": {
+          "package_name": "com.example.meu_primeiro_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsBU09Mp3ezy45EV-D5ra81E-4ohIQpDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
