@@ -1,10 +1,7 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-
-
-//import 'login.dart';
+import 'package:meu_primeiro_app/IntroSreen.dart';
 import 'register.dart';
 
 void main() async {
@@ -29,10 +26,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: {
+    "registro": (context) => RegisterPage(),  
+  },
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RegisterPage(),
+      home: IntroScreen(),
     );
   }
 }

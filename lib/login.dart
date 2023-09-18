@@ -118,7 +118,7 @@ class _LoginPageState extends State<LoginPage> {
                     );
                   },
                   child: Text(
-                    "Você ainda naão possui uma conta?",
+                    "Você ainda não possui uma conta?",
                     style: TextStyle(
                       fontSize: 16,
                       color: Color(0xFF674AEF),

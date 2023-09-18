@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
+
 class IntroScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
+      
       body: IntroductionScreen(
         globalBackgroundColor: Colors.white,
         scrollPhysics: BouncingScrollPhysics(),
@@ -42,11 +45,11 @@ class IntroScreen extends StatelessWidget {
             ),
           ),
         ],
-        onDone: () {
-          Navigator.pushNamed(context, "home");
+        onDone: () {        
+          Navigator.pushReplacementNamed(context, "registro");
         },
-        onSkip: () {
-          Navigator.pushNamed(context, "home");
+        onSkip: () {      
+          Navigator.pushReplacementNamed(context, "registro");
         },
         showSkipButton: true,
         skip: Text(
