@@ -7,7 +7,7 @@ class DescriptionSection extends StatelessWidget {
       padding: EdgeInsets.only(top: 20),
       child: Column(
         children: [
-          Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley os type and scrambled it to make a type specimen book.",
+          Text("Você já se perguntou como funciona o mundo digital que nos cerca? Este curso introdutório é projetado para ajudá-lo a compreender os conceitos fundamentais e as habilidades essenciais necessárias para navegar no universo digital de forma eficaz. Seja você um novato completo ou alguém que deseja aprimorar suas habilidades digitais, este curso oferece uma base sólida para seu aprendizado.",
           style: TextStyle(
             fontSize: 16,
             color: Colors.black.withOpacity(0.7),
@@ -31,7 +31,7 @@ class DescriptionSection extends StatelessWidget {
             ),
             SizedBox(width: 5),
             Text(
-              "26 Hours",
+              "26 Horas",
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
@@ -56,7 +56,7 @@ class DescriptionSection extends StatelessWidget {
             ),
             SizedBox(width: 5),
             Text(
-              "40 Hours",
+              "40 Horas",
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
